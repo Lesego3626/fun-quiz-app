@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fffae3; /* soft yellow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff8f0; /* light cream */
+  padding: 30px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #ff6f61; /* playful coral */
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Answer buttons colors */
+.answer-btn {
+  background: #6fcf97; /* soft green */
+  color: white;
+}
+
+.answer-btn.correct {
+  background: #4caf50; /* darker green for correct */
+}
+
+.answer-btn.wrong {
+  background: #f85c5c; /* red for wrong */
+}
+
+/* Restart button */
+#restartBtn {
+  background: #ffd166; /* yellow */
+  color: black;
+}
+
+/* Hidden class */
+.hidden {
+  display: none;
+}
